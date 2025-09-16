@@ -1,0 +1,18 @@
+🔹 FastAPI Depends
+
+FastAPI provides dependency injection using Depends. It allows you to declare and reuse logic (like authentication, validation, DB connections, business rules) across multiple routes.
+
+✅ How it works
+1. You define a function (dependency) that performs some task.
+2. In your path operation function, you use Depends to call and inject that dependency.
+3. FastAPI automatically resolves and provides the return value of the dependency.
+
+⚡ In short: Depends is FastAPI’s way of doing dependency injection — making routes modular, reusable, and secure.
+
+
+🔹 What are Class-based Dependencies?
+
+Instead of writing a function, you can define a class with an __init__ method that accepts parameters (from query, headers, etc.).
+FastAPI will automatically create an object of that class and inject it into your route via Depends.
+
+👉 It’s just another way to organize dependencies, especially useful when you have multiple related parameters that belong together

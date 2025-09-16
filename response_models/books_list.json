@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1a2b3c4d",
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "pages": 544,
+    "published_year": 2019,
+    "genres": ["programming", "python"],
+    "available": true
+  },
+  {
+    "id": "2b3c4d5e",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "pages": 464,
+    "published_year": 2008,
+    "genres": ["programming", "software engineering"],
+    "available": true
+  },
+  {
+    "id": "3c4d5e6f",
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow",
+    "pages": 775,
+    "published_year": 2016,
+    "genres": ["machine learning", "AI"],
+    "available": false
+  },
+  {
+    "id": "4d5e6f7g",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "pages": 352,
+    "published_year": 1999,
+    "genres": ["software development"],
+    "available": true
+  },
+  {
+    "id": "5e6f7g8h",
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "pages": 1312,
+    "published_year": 2009,
+    "genres": ["algorithms", "computer science"],
+    "available": false
+  },
+  {
+    "id": "6f7g8h9i",
+    "title": "Design Patterns",
+    "author": "Erich Gamma",
+    "pages": 395,
+    "published_year": 1994,
+    "genres": ["software engineering", "patterns"],
+    "available": true
+  },
+  {
+    "id": "7g8h9i0j",
+    "title": "Fluent Python",
+    "author": "Luciano Ramalho",
+    "pages": 1014,
+    "published_year": 2022,
+    "genres": ["python", "advanced programming"],
+    "available": true
+  },
+  {
+    "id": "8h9i0j1k",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "author": "Stuart Russell",
+    "pages": 1152,
+    "published_year": 2020,
+    "genres": ["AI", "machine learning"],
+    "available": false
+  },
+  {
+    "id": "9i0j1k2l",
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "pages": 416,
+    "published_year": 2018,
+    "genres": ["java", "software development"],
+    "available": true
+  },
+  {
+    "id": "0j1k2l3m",
+    "title": "You Don’t Know JS Yet",
+    "author": "Kyle Simpson",
+    "pages": 278,
+    "published_year": 2020,
+    "genres": ["javascript", "web development"],
+    "available": true
+  }
+]

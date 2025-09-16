@@ -1,0 +1,101 @@
+[
+    {
+        "title": "apple",
+        "author": "mango",
+        "isbn": "1223",
+        "pages": 100,
+        "published_year": 2002,
+        "genres": ["comedy"],
+        "available": true
+    },
+    {
+        "title": "The Great Adventure",
+        "author": "John Smith",
+        "isbn": "9781234567890",
+        "pages": 320,
+        "published_year": 2015,
+        "genres": ["fiction", "adventure"],
+        "available": true
+    },
+    {
+        "title": "Deep Learning Basics",
+        "author": "Jane Doe",
+        "isbn": "9789876543210",
+        "pages": 450,
+        "published_year": 2020,
+        "genres": ["education", "technology"],
+        "available": true
+    },
+    {
+        "title": "Cooking with Love",
+        "author": "Emily Brown",
+        "isbn": "9781111111111",
+        "pages": 200,
+        "published_year": 2018,
+        "genres": ["cooking", "lifestyle"],
+        "available": true
+    },
+    {
+        "title": "The Silent Forest",
+        "author": "Michael Green",
+        "isbn": "9782222222222",
+        "pages": 310,
+        "published_year": 2010,
+        "genres": ["mystery", "thriller"],
+        "available": false
+    },
+    {
+        "title": "Space Exploration",
+        "author": "Sarah Lee",
+        "isbn": "9783333333333",
+        "pages": 280,
+        "published_year": 2021,
+        "genres": ["science", "astronomy"],
+        "available": true
+    },
+    {
+        "title": "History of India",
+        "author": "Arjun Verma",
+        "isbn": "9784444444444",
+        "pages": 500,
+        "published_year": 2005,
+        "genres": ["history", "non-fiction"],
+        "available": true
+    },
+    {
+        "title": "Yoga for Beginners",
+        "author": "Priya Kapoor",
+        "isbn": "9785555555555",
+        "pages": 150,
+        "published_year": 2019,
+        "genres": ["health", "fitness"],
+        "available": true
+    },
+    {
+        "title": "The Ocean’s Call",
+        "author": "David Wilson",
+        "isbn": "9786666666666",
+        "pages": 275,
+        "published_year": 2016,
+        "genres": ["fiction", "drama"],
+        "available": false
+    },
+    {
+        "title": "Python Programming",
+        "author": "Alex Turner",
+        "isbn": "9787777777777",
+        "pages": 600,
+        "published_year": 2022,
+        "genres": ["programming", "technology"],
+        "available": true
+    },
+    {
+        "title": "World Poetry",
+        "author": "Sophia White",
+        "isbn": "9788888888888",
+        "pages": 220,
+        "published_year": 2008,
+        "genres": ["poetry", "literature"],
+        "available": true
+    }
+]

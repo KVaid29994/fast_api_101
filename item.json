@@ -1,0 +1,14 @@
+[
+  {"item_id": 10, "item": "apple", "price": 120},
+  {"item_id": 11, "item": "mango", "price": 150},
+  {"item_id": 12, "item": "grapes", "price": 90},
+  {"item_id": 13, "item": "lemon", "price": 40},
+  {"item_id": 14, "item": "guvava", "price": 60},
+  {"item_id": 15, "item": "papaya", "price": 70},
+  {"item_id": 16, "item": "kiwi", "price": 130},
+  {"item_id": 17, "item": "watermelon", "price": 80},
+  {"item_id": 18, "item": "pineapple", "price": 110},
+  {"item_id": 19, "item": "lychee", "price": 140},
+  {"item_id": 20, "item": "banana", "price": 30},
+  {"item_id": 21, "item": "pomegranate", "price": 160}
+]

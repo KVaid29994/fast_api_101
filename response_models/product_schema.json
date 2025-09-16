@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "price": 1299.99,
+        "description": "Ergonomic wireless mouse with adjustable DPI",
+        "created_at": "2025-09-12T10:15:00"
+    },
+    {
+        "id": 2,
+        "name": "Mechanical Keyboard",
+        "price": 3499.5,
+        "description": "RGB backlit mechanical keyboard with blue switches",
+        "created_at": "2025-09-12T11:00:00"
+    },
+    {
+        "id": 3,
+        "name": "Noise Cancelling Headphones",
+        "price": 5999.0,
+        "description": "Over-ear headphones with active noise cancellation",
+        "created_at": "2025-09-12T12:30:00"
+    },
+    {
+        "id": 4,
+        "name": "USB-C Hub",
+        "price": 1999.75,
+        "description": "Multi-port USB-C hub with HDMI and Ethernet",
+        "created_at": "2025-09-12T13:45:00"
+    },
+    {
+        "id": 5,
+        "name": "Portable SSD",
+        "price": 7499.99,
+        "description": "1TB portable SSD with USB 3.2 support",
+        "created_at": "2025-09-12T14:20:00"
+    },
+    {
+        "id": 6,
+        "name": "Smartwatch",
+        "price": 8999.0,
+        "description": "Fitness tracking smartwatch with heart rate monitor",
+        "created_at": "2025-09-12T15:05:00"
+    },
+    {
+        "id": 7,
+        "name": "Bluetooth Speaker",
+        "price": 2599.49,
+        "description": "Compact Bluetooth speaker with deep bass",
+        "created_at": "2025-09-12T16:10:00"
+    },
+    {
+        "id": 8,
+        "name": "Webcam",
+        "price": 1899.0,
+        "description": "1080p HD webcam with built-in microphone",
+        "created_at": "2025-09-12T17:25:00"
+    },
+    {
+        "id": 9,
+        "name": "Laptop Stand",
+        "price": 999.99,
+        "description": "Aluminum adjustable laptop stand for desk setup",
+        "created_at": "2025-09-12T18:40:00"
+    },
+    {
+        "id": 10,
+        "name": "Graphic Tablet",
+        "price": 6499.0,
+        "description": "Drawing tablet with pressure-sensitive stylus",
+        "created_at": "2025-09-12T19:55:00"
+    },
+    {
+        "id": 11,
+        "name": "apple macbook",
+        "price": 100000.0,
+        "description": "very fast",
+        "created_at": "2025-09-12T19:55:00"
+    },
+    {
+        "id": 12,
+        "name": "apple serial tabs",
+        "price": 500.0,
+        "description": "very good",
+        "created_at": "2025-09-13T10:05:26"
+    }
+]

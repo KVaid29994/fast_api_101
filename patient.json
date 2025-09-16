@@ -1,0 +1,22 @@
+[
+  {"patient_id": 1, "name": "Aarav Sharma", "age": 28, "gender": "Male", "diagnosis": "Flu"},
+  {"patient_id": 2, "name": "Priya Mehta", "age": 34, "gender": "Female", "diagnosis": "Diabetes"},
+  {"patient_id": 3, "name": "Rohan Patel", "age": 45, "gender": "Male", "diagnosis": "Hypertension"},
+  {"patient_id": 4, "name": "Simran Kaur", "age": 29, "gender": "Female", "diagnosis": "Asthma"},
+  {"patient_id": 5, "name": "Vikram Singh", "age": 50, "gender": "Male", "diagnosis": "Arthritis"},
+  {"patient_id": 6, "name": "Neha Verma", "age": 38, "gender": "Female", "diagnosis": "Migraine"},
+  {"patient_id": 7, "name": "Kabir Malhotra", "age": 22, "gender": "Male", "diagnosis": "Allergy"},
+  {"patient_id": 8, "name": "Ananya Gupta", "age": 31, "gender": "Female", "diagnosis": "Flu"},
+  {"patient_id": 9, "name": "Rahul Nair", "age": 41, "gender": "Male", "diagnosis": "Back Pain"},
+  {"patient_id": 10, "name": "Sneha Reddy", "age": 27, "gender": "Female", "diagnosis": "Thyroid"},
+  {"patient_id": 11, "name": "Manish Joshi", "age": 36, "gender": "Male", "diagnosis": "High Cholesterol"},
+  {"patient_id": 12, "name": "Pooja Desai", "age": 24, "gender": "Female", "diagnosis": "PCOS"},
+  {"patient_id": 13, "name": "Arjun Iyer", "age": 55, "gender": "Male", "diagnosis": "Diabetes"},
+  {"patient_id": 14, "name": "Meera Kapoor", "age": 42, "gender": "Female", "diagnosis": "Hypertension"},
+  {"patient_id": 15, "name": "Siddharth Rao", "age": 33, "gender": "Male", "diagnosis": "Depression"},
+  {"patient_id": 16, "name": "Ishita Jain", "age": 26, "gender": "Female", "diagnosis": "Anemia"},
+  {"patient_id": 17, "name": "Karan Thakur", "age": 48, "gender": "Male", "diagnosis": "Asthma"},
+  {"patient_id": 18, "name": "Divya Bansal", "age": 39, "gender": "Female", "diagnosis": "Arthritis"},
+  {"patient_id": 19, "name": "Harsh Agarwal", "age": 30, "gender": "Male", "diagnosis": "Flu"},
+  {"patient_id": 20, "name": "Ritika Choudhary", "age": 37, "gender": "Female", "diagnosis": "Migraine"}
+]

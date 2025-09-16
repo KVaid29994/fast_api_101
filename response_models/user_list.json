@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "user_name": "jdoe",
+        "email": "jdoe@example.com",
+        "password": "pass1234",
+        "full_name": "John Doe",
+        "is_active": true
+    },
+    {
+        "id": 2,
+        "user_name": "asmith",
+        "email": "asmith@example.com",
+        "password": "securePass!",
+        "full_name": "Alice Smith",
+        "is_active": false
+    },
+    {
+        "id": 3,
+        "user_name": "bpatel",
+        "email": "bpatel@example.com",
+        "password": "bPatel@2025",
+        "full_name": "Bhavna Patel",
+        "is_active": true
+    },
+    {
+        "id": 4,
+        "user_name": "rlee",
+        "email": "rlee@example.com",
+        "password": "leeRocks99",
+        "full_name": "Robert Lee",
+        "is_active": true
+    },
+    {
+        "id": 5,
+        "user_name": "mfernandez",
+        "email": "mfernandez@example.com",
+        "password": "mFern@z123",
+        "full_name": "Maria Fernandez",
+        "is_active": false
+    },
+    {
+        "id": 6,
+        "user_name": "tnguyen",
+        "email": "tnguyen@example.com",
+        "password": "NguyenSecure1",
+        "full_name": "Thao Nguyen",
+        "is_active": true
+    },
+    {
+        "id": 7,
+        "user_name": "kumarv",
+        "email": "kumarv@example.com",
+        "password": "vKumar!2025",
+        "full_name": "Vikram Kumar",
+        "is_active": true
+    },
+    {
+        "id": 8,
+        "user_name": "lchan",
+        "email": "lchan@example.com",
+        "password": "ChanPass88",
+        "full_name": "Linda Chan",
+        "is_active": false
+    },
+    {
+        "id": 9,
+        "user_name": "owilliams",
+        "email": "owilliams@example.com",
+        "password": "OWill@ms77",
+        "full_name": "Oscar Williams",
+        "is_active": true
+    },
+    {
+        "id": 10,
+        "user_name": "zrahman",
+        "email": "zrahman@example.com",
+        "password": "ZRahman#2025",
+        "full_name": "Zara Rahman",
+        "is_active": true
+    },
+    {
+        "id": 11,
+        "user_name": "kashish",
+        "email": "kash@example.com",
+        "password": "12345",
+        "full_name": "kashish Vaid"
+    },
+    {
+        "id": 12,
+        "user_name": "kashish",
+        "email": "kash@example.com",
+        "password": "12345",
+        "full_name": "kashish Vaid"
+    }
+]
