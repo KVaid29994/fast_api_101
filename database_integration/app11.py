@@ -6,7 +6,7 @@ from bson import ObjectId
 from typing import List
 
 app = FastAPI(title="Patient mangement")
-client = MongoClient("mongodb+srv://vaidkashish290994_db_user:lZaSbQS3kmZJQlQd@kvcluster.kxvrajh.mongodb.net/") 
+client = MongoClient("......") 
 
 db = client["Database1"]          # your database name
 collection = db["collection1"]         # your collection name
