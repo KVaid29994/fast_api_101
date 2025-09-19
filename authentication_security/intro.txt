@@ -1,0 +1,63 @@
+OAuth2 (Open Authorization 2.0) is a protocol that lets users authorize apps to access their data—without giving away their password. It’s like giving someone a keycard that only opens specific doors, not your whole house.
+In FastAPI, we often use a simplified version called the OAuth2 Password Flow, which is perfect for APIs where users log in with a username and password to get a token.
+
+
+
+1. OAuth2PasswordBearer
+- This is a dependency class that tells FastAPI:
+- “Expect a token in the Authorization: Bearer <token> header.”
+
+- You use it like this:
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+- It doesn’t validate the token—it just extracts it from the request so you can validate it yourself.
+
+2. OAuth2PasswordRequestForm- This is used in your /token endpoint to receive login credentials.
+- It expects form data with:
+- username
+- password
+- (optionally) scope
+- Example:
+@app.post("/token")
+async def login(form_data: OAuth2PasswordRequestForm = Depends()):
+    # form_data.username and form_data.password are now available
+🧪 How It All Fits TogetherHere’s the typical flow:- User logs in → sends username & password to /token
+- Server verifies credentials → returns a JWT token
+- Client stores token → sends it in Authorization: Bearer <token> header
+- Protected endpoints → use Depends(oauth2_scheme) to extract and validate token
+🧠 Why Use OAuth2 in FastAPI?- ✅ Standardized and secure
+- 🔄 Stateless (no server-side sessions)
+- 🔍 Easy to integrate with JWT
+- 📜 Automatically generates “Authorize” button in Swagger docs
+
+======================================================
+
+🔐 Authentication vs Authorization
+
+- Authentication → Verifying who the user is (login, tokens, API keys)
+- Authorization → Checking what the user can access (roles, permissions).
+
+FastAPI doesn’t come with a “full” authentication system built-in (like Django), but it provides tools and integrations.
+
+1. Authentication Methods in FastAPI
+
+a) OAuth2 with Password (and JWT Tokens)
+
+""A JWT (JSON Web Token) is a compact, self-contained way to securely transmit information between parties—most commonly between a client (like a browser or mobile app) and a server. It's widely used in authentication and authorization workflows for APIs and web applications.
+
+""""
+    - Most common for APIs.
+    - Use OAuth2PasswordBearer and JWT for stateless authentication.
+
+    - Workflow:
+        - User logs in with username + password.
+        - App verifies credentials → returns JWT access token.
+        - Client sends token in Authorization:
+        Bearer <token>.
+        - Backend validates token for each request.
+
+=============================================================
+
+
+
+
+
